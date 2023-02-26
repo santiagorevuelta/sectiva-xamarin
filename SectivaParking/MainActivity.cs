@@ -1,12 +1,10 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
+using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
-using AndroidX.AppCompat.Widget;
+using Android.Widget;
 using AndroidX.AppCompat.App;
-using Google.Android.Material.FloatingActionButton;
-using Google.Android.Material.Snackbar;
 
 namespace SectivaParking
 {
@@ -18,6 +16,26 @@ namespace SectivaParking
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            EditText editTextUser = FindViewById<EditText>(Resource.Id.editTextUser);
+            EditText passwordEditText = FindViewById<EditText>(Resource.Id.editTextPassword);
+            Button AccountButton = FindViewById<Button>(Resource.Id.buttonAccount);
+            Button loginButton = FindViewById<Button>(Resource.Id.buttonLogin);
+
+            loginButton.Click += (sender, e) =>
+            {
+                Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Short).Show();
+                if (editTextUser.Equals(true))
+                {
+                    
+                    return;
+                }
+
+                if (passwordEditText.Equals(true))
+                {
+                    Toast.MakeText(this, "Your message here", ToastLength.Short).Show();
+                    return;
+                }
+            };
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -35,13 +53,6 @@ namespace SectivaParking
             }
 
             return base.OnOptionsItemSelected(item);
-        }
-
-        private void FabOnClick(object sender, EventArgs eventArgs)
-        {
-            View view = (View) sender;
-            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
-                .SetAction("Action", (View.IOnClickListener)null).Show();
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
