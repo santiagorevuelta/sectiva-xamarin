@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#fff"
+	android:gravity="right">
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="200px">
+		<ImageView
+			android:contentDescription="@logo"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:src="@drawable/icons/logoSp"
+			android:srcCompat="@drawable/icons/logoSp"
+			android:layout_gravity="center_vertical|center"
+			android:scaleType="center"/>
+	</FrameLayout>
+	<ImageView
+			android:contentDescription="@logo"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:src="@drawable/icons/logoSp"
+			android:srcCompat="@drawable/icons/logoSp"
+			android:layout_gravity="center_vertical|center"
+			android:scaleType="center" />
+
+	<EditText
+		android:id="@+id/editTextUser"
+		android:layout_width="match_parent"
+		android:layout_height="49.5dp"
+		android:hint="User"
+		android:inputType="textEmailAddress"
+		android:textColor="#ff000000"
+		android:textColorHint="#ff4e4d4d"
+		android:textColorLink="#ff010101"
+		android:paddingLeft="10px" />
+	<EditText
+		android:id="@+id/editTextPassword"
+		android:layout_width="match_parent"
+		android:layout_height="49.5dp"
+		android:hint="Password"
+		android:inputType="textPassword"
+		android:textColor="#ff000000"
+		android:textColorHint="#ff4e4d4d"
+		android:textColorLink="#ff010101"
+		android:paddingLeft="10px" />
+
+	<GridLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginTop="200px">
+		<Button
+			android:id="@+id/buttonAccount"
+			android:layout_width="300px"
+			android:layout_height="wrap_content"
+			android:text="create account" />
+		<Button
+			android:id="@+id/buttonLogin"
+			android:layout_width="300px"
+			android:layout_height="wrap_content"
+			android:text="Login"/>
+	</GridLayout>
+</LinearLayout>
