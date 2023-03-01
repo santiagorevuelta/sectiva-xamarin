@@ -18,8 +18,9 @@
             android:title="Home" />
     <item
             android:id="@+id/menu_pago"
+            android:enabled="true"
             android:icon="@drawable/iconcard"
-            android:title="Cards" />
+            android:title="pay" />
     <item
             android:id="@+id/menu_profile"
             android:enabled="true"

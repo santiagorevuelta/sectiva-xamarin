@@ -1,29 +1,45 @@
 ﻿using Android.App;
+using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
+using Google.Android.Material.Internal;
 
 namespace SectivaParking
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+       protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-            EditText editTextUser = FindViewById<EditText>(Resource.Id.editTextUser);
-            EditText passwordEditText = FindViewById<EditText>(Resource.Id.editTextPassword);
-            Button AccountButton = FindViewById<Button>(Resource.Id.buttonAccount);
-            Button loginButton = FindViewById<Button>(Resource.Id.buttonLogin);
-
+           
+            var accountButton = FindViewById<Button>(Resource.Id.buttonAccount);
+            var loginButton = FindViewById<Button>(Resource.Id.buttonLogin);
+            
             loginButton.Click += (sender, e) =>
             {
-                Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Short);
-                SetContentView(Resource.Layout.activity_tabs_main);
+                var editTextUser = FindViewById<EditText>(Resource.Id.editTextUser);
+                var passwordEditText = FindViewById<EditText>(Resource.Id.editTextPassword);
+                if (editTextUser.Text.Equals(""))
+                {
+                    Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Long)?.Show();
+                    return;
+                }if (passwordEditText.Text.Equals(""))
+                {
+                    Toast.MakeText(this, "La contraseña es obligatoria", ToastLength.Long)?.Show();
+                    return;
+                }
+                new NavigationMenu(new MainTabs());
+            };
+            
+            accountButton.Click += (sender, e) =>
+            {
+               new SignUp();
             };
         }
 
