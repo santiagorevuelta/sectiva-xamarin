@@ -2,9 +2,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+            android:id="@+id/menu_cars"
+            android:enabled="true"
+            android:icon="@drawable/iconcar"
+            android:title="Cars" />
+    <item
+            android:id="@+id/menu_park"
+            android:enabled="true"
+            android:icon="@drawable/iconlocate"
+            android:title="Parking" />
+    <item
+            android:id="@+id/menu_home"
+            android:enabled="true"
+            android:icon="@drawable/iconhome"
+            android:title="Home" />
+    <item
+            android:id="@+id/menu_pago"
+            android:icon="@drawable/iconcard"
+            android:title="Cards" />
+    <item
+            android:id="@+id/menu_profile"
+            android:enabled="true"
+            android:icon="@drawable/iconperson"
+            android:title="Profile" />
 </menu>
 

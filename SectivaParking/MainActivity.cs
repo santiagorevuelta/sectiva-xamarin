@@ -1,5 +1,4 @@
 ﻿using Android.App;
-using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -23,18 +22,8 @@ namespace SectivaParking
 
             loginButton.Click += (sender, e) =>
             {
-                Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Short).Show();
-                if (editTextUser.Equals(true))
-                {
-                    
-                    return;
-                }
-
-                if (passwordEditText.Equals(true))
-                {
-                    Toast.MakeText(this, "Your message here", ToastLength.Short).Show();
-                    return;
-                }
+                Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Short);
+                SetContentView(Resource.Layout.activity_tabs_main);
             };
         }
 
@@ -47,11 +36,17 @@ namespace SectivaParking
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
-            if (id == Resource.Id.action_settings)
-            {
-                return true;
-            }
-
+            SetContentView(Resource.Layout.fracment_cars);
+            // Fragment fragment =  id switch
+            // {
+            //     Resource.Id.menu_home => new Fragment(),
+            //     Resource.Id.menu_cars => new Fragment(),
+            //     Resource.Id.menu_pago => new Fragment(),
+            //     Resource.Id.menu_park => new Fragment(),
+            //     Resource.Id.menu_profile => new Fragment(),
+            //     _ => null
+            // };
+            //
             return base.OnOptionsItemSelected(item);
         }
 
