@@ -43,28 +43,28 @@
 		android:paddingLeft="10px" />
 
 	<GridLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:layout_gravity="center_horizontal|center"
-		android:layout_marginTop="200px"
-		android:gravity="center"
-		android:padding="20px">
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center"
+			android:layout_marginTop="200px"
+			android:gravity="center"
+			android:paddingVertical="20px" android:paddingHorizontal="60px">
 		<Button
 				android:id="@+id/buttonAccount"
-				android:layout_width="192dp"
+				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:text="create account"
-				android:layout_gravity="center_horizontal|left"
+				android:text="Sign up"
+				android:layout_gravity="center|center_horizontal|left"
 				app:iconTint="#ff000000"
-				android:backgroundTint="#ff178996" android:layout_row="0" android:layout_column="0"
-				android:textColor="#ffffff"/>
+				android:backgroundTint="#ff178996" android:layout_row="0" android:layout_column="1"
+				android:textColor="#000000"/>
 		<Button
 				android:id="@+id/buttonLogin"
-				android:layout_width="300px"
+				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_gravity="center_horizontal|right"
+				android:layout_gravity="center|right"
 				android:text="Login"
 				android:backgroundTint="#ff178996" android:layout_row="0" android:layout_column="1"
-				android:textColor="#ffffff"/>
+				android:textColor="#000000"/>
 	</GridLayout>
 </LinearLayout>

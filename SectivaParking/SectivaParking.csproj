@@ -78,6 +78,8 @@
     <AndroidResource Include="Resources\drawable\iconhome.png" />
     <AndroidResource Include="Resources\drawable\iconperson.png" />
     <AndroidResource Include="Resources\drawable\iconlocate.png" />
+    <AndroidResource Include="Resources\drawable\iconone.png" />
+    <AndroidResource Include="Resources\drawable\icontwo.png" />
     <AndroidResource Include="Resources\layout\activity_main.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -113,10 +115,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\drawable\logospb.jpg">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
