@@ -7,19 +7,36 @@ namespace SectivaParking
 {
     public class Home : AndroidX.Fragment.App.Fragment
     {
-        View view;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            view = inflater.Inflate(Resource.Layout.fracment_home, container, false);
-            return view;
+            return inflater.Inflate(Resource.Layout.fracment_home, container, false);
         }
 
     }  
     public class Cars : AndroidX.Fragment.App.Fragment
     {
-        View view;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            view = inflater.Inflate(Resource.Layout.fracment_cars, container, false);
-            return view;
+            return inflater.Inflate(Resource.Layout.fracment_cars, container, false);
+        }
+
+    }
+    public class Pay : AndroidX.Fragment.App.Fragment
+    {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            return inflater.Inflate(Resource.Layout.fracment_cars, container, false);
+        }
+
+    }
+    public class Parck : AndroidX.Fragment.App.Fragment
+    {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            return inflater.Inflate(Resource.Layout.fracment_cars, container, false);
+        }
+
+    }
+    public class Profile : AndroidX.Fragment.App.Fragment
+    {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            return inflater.Inflate(Resource.Layout.fracment_cars, container, false);
         }
 
     }

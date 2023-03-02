@@ -33,6 +33,15 @@ namespace SectivaParking
                 case Resource.Id.menu_cars:
                     frag.Replace(Resource.Id.fragment_container, new Cars());
                     break;
+                case Resource.Id.menu_pago:
+                    frag.Replace(Resource.Id.fragment_container, new Pay());
+                    break;
+                case Resource.Id.menu_park:
+                    frag.Replace(Resource.Id.fragment_container, new Parck());
+                    break;
+                case Resource.Id.menu_profile:
+                    frag.Replace(Resource.Id.fragment_container, new Profile());
+                    break;
             }
             frag.Commit();
         }

@@ -9,25 +9,32 @@ namespace SectivaParking
 {
     public class SignUp: Activity
     {
+        EditText txtNombres;
+        EditText txtApellidos;
+        EditText txtEmail;
+        EditText txtPassword;
+        Button accountButton;
+        Button buttonCancel;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.signUp);
-            var accountButton = FindViewById<Button>(Resource.Id.buttonAccount);
-            var buttonCancel = FindViewById<Button>(Resource.Id.buttonCancel);
-
+            accountButton = FindViewById<Button>(Resource.Id.buttonAccount);
+            buttonCancel = FindViewById<Button>(Resource.Id.buttonCancel);
+            
             buttonCancel.Click += (sender, e) =>
             {
                 SetContentView(Resource.Layout.activity_main);
+                throw new System.NotImplementedException();
             };
 
             accountButton.Click += (sender, e) =>
             {
-                var txtNombres = FindViewById<EditText>(Resource.Id.txtNombres);
-                var txtApellidos = FindViewById<EditText>(Resource.Id.txtApellidos);
-                var txtEmail = FindViewById<EditText>(Resource.Id.txtEmail);
-                var txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
+                 txtNombres = FindViewById<EditText>(Resource.Id.txtNombres);
+                 txtApellidos = FindViewById<EditText>(Resource.Id.txtApellidos);
+                 txtEmail = FindViewById<EditText>(Resource.Id.txtEmail);
+                 txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
                 if (txtNombres.Text.Equals(""))
                 {
                     Toast.MakeText(this, "El campo nombre es obligatorio", ToastLength.Long)?.Show();
