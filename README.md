@@ -1,7 +1,19 @@
-# Sectiva Parking
+<h1 align="center">Hi 👋, I'm Sectiva Parking</h1>
+<h3 align="center"></h3>
 
-Participantes
+- 🔭 I’m currently working on **Sectiva Parking**
 
-Santiago Revuelta Rodriguez
-Maira Alejandra Valencia 
-Johnatan Duvan Bedoya Gomez
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/Maleja7301" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Maira Alejandra Valencia" height="30" width="40" />Maira Alejandra Valencia</a>
+</p>
+<p align="left">
+<a href="https://github.com/santiagorevuelta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Santiago Revuelta Rodriguez" height="30" width="40" />Santiago Revuelta Rodriguez</a>
+</p>
+<p align="left">
+<a href="https://dev.to/johnatan duvan bedoya gomez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Johnatan duvan bedoya gomez" height="30" width="40" />Johnatan duvan bedoya gomez</a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/apps/xamarin" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/xamarin.svg" alt="xamarin" width="40" height="40"/> </a> </p>
+
