@@ -4882,10 +4882,10 @@ namespace SectivaParking
 			public const int menu_home = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int menu_pago = 2131230940;
+			public const int menu_park = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int menu_park = 2131230941;
+			public const int menu_pay = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
 			public const int menu_profile = 2131230942;
@@ -5668,43 +5668,52 @@ namespace SectivaParking
 			public const int fracment_home = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar = 2131427378;
+			public const int fracment_parck = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar_include = 2131427379;
+			public const int fracment_pay = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_action = 2131427380;
+			public const int fracment_profile = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_action_tombstone = 2131427381;
+			public const int mtrl_layout_snackbar = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_custom_big = 2131427382;
+			public const int mtrl_layout_snackbar_include = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_icon_group = 2131427383;
+			public const int notification_action = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_part_chronometer = 2131427384;
+			public const int notification_action_tombstone = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_part_time = 2131427385;
+			public const int notification_template_custom_big = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int select_dialog_item_material = 2131427386;
+			public const int notification_template_icon_group = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int select_dialog_multichoice_material = 2131427387;
+			public const int notification_template_part_chronometer = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int select_dialog_singlechoice_material = 2131427388;
+			public const int notification_template_part_time = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int signUp = 2131427389;
+			public const int select_dialog_item_material = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int support_simple_spinner_dropdown_item = 2131427390;
+			public const int select_dialog_multichoice_material = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int select_dialog_singlechoice_material = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int signUp = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int support_simple_spinner_dropdown_item = 2131427393;
 			
 			static Layout()
 			{

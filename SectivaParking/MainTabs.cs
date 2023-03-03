@@ -7,7 +7,7 @@ using Java.Util;
 using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace SectivaParking
-   {
+   {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
     public class MainTabs : AppCompatActivity
     {
         public static BottomNavigationView bottomnavigation;
@@ -17,9 +17,13 @@ namespace SectivaParking
             SetContentView(Resource.Layout.activity_tabs_main);
             bottomnavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation_view);
             bottomnavigation.NavigationItemSelected += NavigationItemSelected;
+            bottomnavigation.SelectedItemId = Resource.Id.menu_home;
             LoadFragment(Resource.Id.menu_home);
         }
-
+        protected bool OnBackButtonPressed()
+        {
+            return true;    
+        }
         public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e) {
             LoadFragment(e.Item.ItemId);
         }
@@ -33,7 +37,7 @@ namespace SectivaParking
                 case Resource.Id.menu_cars:
                     frag.Replace(Resource.Id.fragment_container, new Cars());
                     break;
-                case Resource.Id.menu_pago:
+                case Resource.Id.menu_pay:
                     frag.Replace(Resource.Id.fragment_container, new Pay());
                     break;
                 case Resource.Id.menu_park:
