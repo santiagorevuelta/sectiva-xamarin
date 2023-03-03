@@ -4,4 +4,4 @@ Participantes
 
 Santiago Revuelta Rodriguez
 Maira Alejandra Valencia 
-Johnatan
+Johnatan Duvan Bedoya Gomez
