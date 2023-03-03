@@ -7,7 +7,7 @@ using Java.Util;
 using Fragment = AndroidX.Fragment.App.Fragment;
 
 namespace SectivaParking
-   {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
+   {
     public class MainTabs : AppCompatActivity
     {
         public static BottomNavigationView bottomnavigation;

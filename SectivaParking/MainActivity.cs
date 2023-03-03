@@ -1,11 +1,10 @@
 ﻿using Android.App;
-using Android.Content.Res;
+using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
-using Google.Android.Material.Internal;
 
 namespace SectivaParking
 {
@@ -37,12 +36,17 @@ namespace SectivaParking
                     Toast.MakeText(this, "La contraseña es obligatoria", ToastLength.Long)?.Show();
                     return;
                 }
-                SetContentView(Resource.Layout.activity_tabs_main);
+
+                Intent intent = new Intent(this, typeof(MainTabs));
+                StartActivity(intent);
+                throw new System.NotImplementedException();
             };
             
             accountButton.Click += (sender, e) =>
             {
-                SetContentView(Resource.Layout.signUp);
+                Intent intent = new Intent(this, typeof(SignUp));
+                StartActivity(intent);
+                throw new System.NotImplementedException();
             };
         }
 
