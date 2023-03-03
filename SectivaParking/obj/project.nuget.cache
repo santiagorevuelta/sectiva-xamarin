@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7rBgsCj08Qvzs/6TMtFE0RdgiJ5xqceO1y1c3eG6fw4N4NVqyxzxpVQKTXs2Ua3N+K4p4OfBfrOtvWChZ8Ddhg==",
+  "dgSpecHash": "S+nzQceXr6IuLbp1LjKQFHVeTTf0Wt6K9jYohSBZ4GAX3Q0r044lmHIw7/Pi96Z07DKIOFYLhyfZ4OYJ9z7DEw==",
   "success": true,
   "projectFilePath": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.AndroidX.AppCompat from 1.6.0.1 to 1.2.0.5. Reference the package directly from the project to select a different version. \n SectivaParking.csproj -> Xamarin.AndroidX.ConstraintLayout 2.1.4.3 -> Xamarin.AndroidX.AppCompat (>= 1.6.0.1) \n SectivaParking.csproj -> Xamarin.AndroidX.AppCompat (>= 1.2.0.5)",
+      "message": "Detected package downgrade: Xamarin.AndroidX.AppCompat from 1.6.0.1 to 1.2.0.5. Reference the package directly from the project to select a different version. \n SectivaParking -> Xamarin.AndroidX.ConstraintLayout 2.1.4.3 -> Xamarin.AndroidX.AppCompat (>= 1.6.0.1) \n SectivaParking -> Xamarin.AndroidX.AppCompat (>= 1.2.0.5)",
       "libraryId": "Xamarin.AndroidX.AppCompat",
       "targetGraphs": [
         "MonoAndroid,Version=v13.0"

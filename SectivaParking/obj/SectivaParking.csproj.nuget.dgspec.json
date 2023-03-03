@@ -8,14 +8,14 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
-        "projectName": "SectivaParking.csproj",
+        "projectName": "SectivaParking",
         "projectPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
         "packagesPath": "/Users/usuario/.nuget/packages/",
         "outputPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/usuario/.nuget/NuGet/NuGet.Config"
+          "/Users/usuario/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid13.0"

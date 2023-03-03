@@ -51,7 +51,6 @@ namespace SectivaParking
        {
            var intent = new Intent(this, typeof(SignUp));
            StartActivity(intent);
-           throw new System.NotImplementedException();
        }
      
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
