@@ -3,10 +3,16 @@
               android:id="@id/menu_home"
               android:layout_width="match_parent"
               android:gravity="center"
+              android:orientation="vertical"
               android:layout_height="match_parent">
-    <TextView
-            android:text="Home"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"/>
+    <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+    </SearchView>
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </FrameLayout>
 </LinearLayout>

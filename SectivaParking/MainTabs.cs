@@ -10,14 +10,14 @@ namespace SectivaParking
    {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
     public class MainTabs : AppCompatActivity
     {
-        public static BottomNavigationView bottomnavigation;
+        private static BottomNavigationView _navigation;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_tabs_main);
-            bottomnavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation_view);
-            bottomnavigation.NavigationItemSelected += NavigationItemSelected;
-            bottomnavigation.SelectedItemId = Resource.Id.menu_home;
+            _navigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation_view);
+            _navigation.NavigationItemSelected += NavigationItemSelected;
+            _navigation.SelectedItemId = Resource.Id.menu_home;
             LoadFragment(Resource.Id.menu_home);
         }
         protected bool OnBackButtonPressed()
