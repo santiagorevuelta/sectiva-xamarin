@@ -11,7 +11,7 @@
 <a href="https://github.com/santiagorevuelta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Santiago Revuelta Rodriguez" height="30" width="40" />Santiago Revuelta Rodriguez</a>
 </p>
 <p align="left">
-<a href="https://dev.to/johnatan duvan bedoya gomez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Johnatan duvan bedoya gomez" height="30" width="40" />Johnatan duvan bedoya gomez</a>
+<a href="https://dev.to/johnatan Duvan bedoya gomez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Johnatan duvan bedoya gomez" height="30" width="40" />Johnatan Duvan Bedoya Gomez</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
