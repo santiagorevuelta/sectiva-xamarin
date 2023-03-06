@@ -45,6 +45,7 @@ namespace SectivaParking
 
            var intent = new Intent(this, typeof(MainTabs));
            StartActivity(intent);
+           Finish();
        }
        
        private void BtnSigUp_Click(object sender, System.EventArgs e)
