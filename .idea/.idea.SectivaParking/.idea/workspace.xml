@@ -9,43 +9,14 @@
     <projectFile kind="XamarinAndroid">SectivaParking/SectivaParking.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentParking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SectivaParking/Resources/drawable/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SectivaParking/Resources/drawable/two.jpg" afterDir="false" />
+    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentCars.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentHome.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentPay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SectivaParking/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SectivaParking/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Fragments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Fragments.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_parck.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_parck.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/build.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/libraryprojectimports.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +50,9 @@
     <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="2MFTazTwj8jmXC02uC8XaoXlMUm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -153,7 +127,7 @@
       <workItem from="1678071573532" duration="1407000" />
       <workItem from="1678142796313" duration="967000" />
       <workItem from="1678144033785" duration="442000" />
-      <workItem from="1678144479855" duration="1740000" />
+      <workItem from="1678144479855" duration="2025000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1677382602296</created>
@@ -267,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678123396228</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update">
+      <created>1678150831494</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678150831494</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +279,8 @@
     <MESSAGE value="up" />
     <MESSAGE value="all" />
     <MESSAGE value="Changes nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes nav" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

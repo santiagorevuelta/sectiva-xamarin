@@ -61,8 +61,11 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FracmentCars.cs" />
+    <Compile Include="FracmentHome.cs" />
     <Compile Include="FracmentParking.cs" />
-    <Compile Include="Fragments.cs" />
+    <Compile Include="FracmentPay.cs" />
+    <Compile Include="FracmentProfile.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

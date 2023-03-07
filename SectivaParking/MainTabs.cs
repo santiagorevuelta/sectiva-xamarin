@@ -31,19 +31,19 @@ namespace SectivaParking
             var frag = SupportFragmentManager.BeginTransaction();
             switch (id) {
                 case Resource.Id.menu_home:
-                    frag.Replace(Resource.Id.fragment_container, new Home());
+                    frag.Replace(Resource.Id.fragment_container, new FracmentHome());
                     break;
                 case Resource.Id.menu_cars:
-                    frag.Replace(Resource.Id.fragment_container, new Cars());
+                    frag.Replace(Resource.Id.fragment_container, new FracmentCars());
                     break;
                 case Resource.Id.menu_pay:
-                    frag.Replace(Resource.Id.fragment_container, new Pay());
+                    frag.Replace(Resource.Id.fragment_container, new FracmentPay());
                     break;
                 case Resource.Id.menu_park:
                     frag.Replace(Resource.Id.fragment_container, new FracmentParking());
                     break;
                 case Resource.Id.menu_profile:
-                    frag.Replace(Resource.Id.fragment_container, new Profile());
+                    frag.Replace(Resource.Id.fragment_container, new FracmentProfile());
                     break;
             }
             frag.Commit();
