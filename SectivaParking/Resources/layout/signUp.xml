@@ -62,6 +62,11 @@
             android:textColorHint="#ff4e4d4d"
             android:textColorLink="#ff010101"
             android:paddingLeft="10px" />
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="49.5dp"
+            android:prompt="@string/genero"
+            android:id="@+id/spinner" android:contentDescription="@string/app_name" android:spinnerMode="dialog"/>
     <GridLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

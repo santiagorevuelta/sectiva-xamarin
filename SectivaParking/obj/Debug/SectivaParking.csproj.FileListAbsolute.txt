@@ -359,3 +359,7 @@
 /Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/android/src/crc6470b3777163c2ff60/FracmentCars.java
+/Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/android/src/crc6470b3777163c2ff60/FracmentHome.java
+/Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/android/src/crc6470b3777163c2ff60/FracmentPay.java
+/Users/usuario/Projects/SectivaParking/SectivaParking/obj/Debug/android/src/crc6470b3777163c2ff60/FracmentProfile.java

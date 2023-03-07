@@ -9,8 +9,12 @@
     <projectFile kind="XamarinAndroid">SectivaParking/SectivaParking.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="gitignore">
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +125,9 @@
       <workItem from="1678071573532" duration="1407000" />
       <workItem from="1678142796313" duration="967000" />
       <workItem from="1678144033785" duration="442000" />
-      <workItem from="1678144479855" duration="2570000" />
+      <workItem from="1678144479855" duration="2648000" />
+      <workItem from="1678231610611" duration="629000" />
+      <workItem from="1678232244364" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1677382602296</created>
@@ -256,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678151561302</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="s">
+      <created>1678151632939</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678151632939</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +303,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Up data fracments" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

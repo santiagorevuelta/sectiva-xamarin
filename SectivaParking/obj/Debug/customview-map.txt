@@ -30,6 +30,7 @@ ImageView;obj/Debug/res/layout/fracment_profile.xml
 ImageView;obj/Debug/res/layout/signup.xml
 include;obj/Debug/res/layout/activity_main.xml
 item;obj/Debug/res/menu/menu_main.xml
+item;obj/Debug/res/values/strings.xml
 item;obj/Debug/res/values/styles.xml
 LinearLayout;obj/Debug/res/layout/content_main.xml
 LinearLayout;obj/Debug/res/layout/fracment_cars.xml
@@ -47,9 +48,11 @@ resources;obj/Debug/res/values/ic_launcher_background.xml
 resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
 SearchView;obj/Debug/res/layout/fracment_home.xml
+Spinner;obj/Debug/res/layout/signup.xml
 string;obj/Debug/res/values/strings.xml
 style;obj/Debug/res/values/styles.xml
 TextView;obj/Debug/res/layout/fracment_cars.xml
+TextView;obj/Debug/res/layout/fracment_home.xml
 TextView;obj/Debug/res/layout/fracment_parck.xml
 TextView;obj/Debug/res/layout/fracment_pay.xml
 TextView;obj/Debug/res/layout/fracment_profile.xml
