@@ -4230,10 +4230,16 @@ namespace SectivaParking
 			public const int notify_panel_notification_icon_bg = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int tooltip_frame_dark = 2131165313;
+			public const int one = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int tooltip_frame_light = 2131165314;
+			public const int tooltip_frame_dark = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int tooltip_frame_light = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int two = 2131165316;
 			
 			static Drawable()
 			{
@@ -5422,25 +5428,28 @@ namespace SectivaParking
 			public const int visible_removing_fragment_view_tag = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int west = 2131231111;
+			public const int webview = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int withText = 2131231112;
+			public const int west = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int wrap = 2131231113;
+			public const int withText = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int wrap_content = 2131231114;
+			public const int wrap = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int wrap_content_constrained = 2131231115;
+			public const int wrap_content = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int x_left = 2131231116;
+			public const int wrap_content_constrained = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int x_right = 2131231117;
+			public const int x_left = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int x_right = 2131231118;
 			
 			static Id()
 			{

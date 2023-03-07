@@ -2,6 +2,7 @@ using System;
 using Android.App;
 using Android.OS;
 using Android.Views;
+using Android.Webkit;
 
 namespace SectivaParking
 {
@@ -26,13 +27,7 @@ namespace SectivaParking
         }
 
     }
-    public class Parck : AndroidX.Fragment.App.Fragment
-    {
-        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            return inflater.Inflate(Resource.Layout.fracment_parck, container, false);
-        }
-
-    }
+  
     public class Profile : AndroidX.Fragment.App.Fragment
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

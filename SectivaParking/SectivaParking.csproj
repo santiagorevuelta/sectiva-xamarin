@@ -61,6 +61,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FracmentParking.cs" />
     <Compile Include="Fragments.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -81,6 +82,8 @@
     <AndroidResource Include="Resources\drawable\iconlocate.png" />
     <AndroidResource Include="Resources\drawable\iconone.png" />
     <AndroidResource Include="Resources\drawable\icontwo.png" />
+    <AndroidResource Include="Resources\drawable\one.png" />
+    <AndroidResource Include="Resources\drawable\two.jpg" />
     <AndroidResource Include="Resources\layout\activity_main.xml">
       <SubType>Designer</SubType>
     </AndroidResource>

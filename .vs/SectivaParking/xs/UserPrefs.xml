@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{9550E303-D082-4A2F-9BD4-1715FA24B174}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_API_33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_API_33" />
   <MonoDevelop.Ide.ItemProperties.SectivaParking PreferredExecutionTarget="Android.Pixel_6_API_33" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SectivaParking/MainTabs.cs">
     <Files>
@@ -23,7 +24,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -3,8 +3,7 @@ using Android.App;
 using Android.OS;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.BottomNavigation;
-using Java.Util;
-using Fragment = AndroidX.Fragment.App.Fragment;
+using Android.Webkit;
 
 namespace SectivaParking
    {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
@@ -41,7 +40,7 @@ namespace SectivaParking
                     frag.Replace(Resource.Id.fragment_container, new Pay());
                     break;
                 case Resource.Id.menu_park:
-                    frag.Replace(Resource.Id.fragment_container, new Parck());
+                    frag.Replace(Resource.Id.fragment_container, new FracmentParking());
                     break;
                 case Resource.Id.menu_profile:
                     frag.Replace(Resource.Id.fragment_container, new Profile());

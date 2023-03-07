@@ -10,168 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentParking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectivaParking/Resources/drawable/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SectivaParking/Resources/drawable/two.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/MainActivity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/SignUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SignUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/R.cs.flag" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/R.cs.flag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/annotation/experimental/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/appcompat/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/appcompat/resources/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/browser/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/cardview/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/constraintlayout/widget/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/coordinatorlayout/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/core/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/drawerlayout/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/fragment/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/lifecycle/runtime/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/recyclerview/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/savedstate/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/androidx/transition/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/android/src/com/google/android/material/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/customview-map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SectivaParking/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SectivaParking/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Fragments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Fragments.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_parck.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/fracment_parck.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/SectivaParking.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/Resource.designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/build.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/libraryimports.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/designtime/libraryprojectimports.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconcar.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconcard.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconhome.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconlocate.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconone.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_iconperson.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/drawable_icontwo.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_activity_main.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_activity_tabs_main.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_content_main.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_fracment_cars.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_fracment_home.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_fracment_parck.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_fracment_pay.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_fracment_profile.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/layout_signup.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/menu_menu_main.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-hdpi_ic_launcher.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-hdpi_ic_launcher_foreground.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-hdpi_ic_launcher_round.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-mdpi_ic_launcher.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-mdpi_ic_launcher_foreground.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-mdpi_ic_launcher_round.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xhdpi_ic_launcher.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xhdpi_ic_launcher_foreground.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xhdpi_ic_launcher_round.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxhdpi_ic_launcher.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxhdpi_ic_launcher_foreground.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxhdpi_ic_launcher_round.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxxhdpi_ic_launcher.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxxhdpi_ic_launcher_foreground.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/mipmap-xxxhdpi_ic_launcher_round.png.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/values_colors.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/values_dimens.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/values_ic_launcher_background.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/values_strings.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/flat/values_styles.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/flat/xml_xamarin_essentials_fileprovider_file_paths.xml.flat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/42/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/flat/49.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/49/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/flat/50.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/50/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/flat/51.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/51/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/flat/57.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/57/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/flat/63.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/63/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/flat/64.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/64/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/flat/67.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/67/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/flat/72.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/72/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/flat/74.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/74/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/flat/77.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/77/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/flat/78.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/78/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/flat/79.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/79/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/flat/80.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/80/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/flat/81.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/81/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/files.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/flat/82.flata" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/lp/82/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res.flag" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/Debug/res.flag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconcar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconcard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconhome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconlocate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/iconperson.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/drawable/icontwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/activity_tabs_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/content_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/fracment_cars.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/fracment_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/fracment_parck.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/fracment_pay.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/fracment_profile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/layout/signup.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/menu/menu_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/values/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/stamp/_BuildLibraryImportsCache.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/stamp/_ConvertResourcesCases.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,6 +150,10 @@
       <workItem from="1677931860683" duration="292000" />
       <workItem from="1677934276353" duration="662000" />
       <workItem from="1677942645611" duration="4378000" />
+      <workItem from="1678071573532" duration="1407000" />
+      <workItem from="1678142796313" duration="967000" />
+      <workItem from="1678144033785" duration="442000" />
+      <workItem from="1678144479855" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1677382602296</created>
@@ -383,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677934315407</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changes nav">
+      <created>1678123396228</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678123396228</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +297,8 @@
     <MESSAGE value="All" />
     <MESSAGE value="up" />
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="Changes nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes nav" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
