@@ -9,14 +9,9 @@
     <projectFile kind="XamarinAndroid">SectivaParking/SectivaParking.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentCars.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentHome.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentPay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SectivaParking/FracmentProfile.cs" afterDir="false" />
+    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="Up data fracments">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/MainTabs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <workItem from="1678071573532" duration="1407000" />
       <workItem from="1678142796313" duration="967000" />
       <workItem from="1678144033785" duration="442000" />
-      <workItem from="1678144479855" duration="2025000" />
+      <workItem from="1678144479855" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1677382602296</created>
@@ -248,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678150831494</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Up data fracments">
+      <created>1678151199579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678151199579</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +282,8 @@
     <MESSAGE value="all" />
     <MESSAGE value="Changes nav" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Up data fracments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up data fracments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
