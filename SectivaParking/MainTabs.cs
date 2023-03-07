@@ -4,6 +4,8 @@ using Android.OS;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.BottomNavigation;
 using Android.Webkit;
+using Android.Views;
+using Android.Content.Res;
 
 namespace SectivaParking
    {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
@@ -15,7 +17,7 @@ namespace SectivaParking
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_tabs_main);
             _navigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation_view);
-            _navigation.NavigationItemSelected += NavigationItemSelected;
+           // _navigation.SetOnNavigationItemSelectedListener((BottomNavigationView.IOnNavigationItemSelectedListener) this);
             _navigation.SelectedItemId = Resource.Id.menu_home;
             LoadFragment(Resource.Id.menu_home);
         }
@@ -23,8 +25,11 @@ namespace SectivaParking
         {
             return true;    
         }
-        public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e) {
-            LoadFragment(e.Item.ItemId);
+
+        public bool OnNavigationItemSelected(IMenuItem item)
+        {
+            LoadFragment(item.ItemId);
+            return false;
         }
 
         public void LoadFragment(int id) {
