@@ -17,7 +17,7 @@ namespace SectivaParking
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_tabs_main);
             _navigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation_view);
-           // _navigation.SetOnNavigationItemSelectedListener((BottomNavigationView.IOnNavigationItemSelectedListener) this);
+            _navigation.NavigationItemSelected += NavigationItemSelected;
             _navigation.SelectedItemId = Resource.Id.menu_home;
             LoadFragment(Resource.Id.menu_home);
         }
@@ -26,10 +26,8 @@ namespace SectivaParking
             return true;    
         }
 
-        public bool OnNavigationItemSelected(IMenuItem item)
-        {
-            LoadFragment(item.ItemId);
-            return false;
+        public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e) {
+            LoadFragment(e.Item.ItemId);
         }
 
         public void LoadFragment(int id) {

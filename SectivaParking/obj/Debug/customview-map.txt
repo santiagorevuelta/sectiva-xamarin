@@ -19,13 +19,10 @@ foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 FrameLayout;obj/Debug/res/layout/activity_tabs_main.xml
 FrameLayout;obj/Debug/res/layout/content_main.xml
-FrameLayout;obj/Debug/res/layout/fracment_home.xml
 FrameLayout;obj/Debug/res/layout/signup.xml
 GridLayout;obj/Debug/res/layout/content_main.xml
 GridLayout;obj/Debug/res/layout/signup.xml
-HorizontalScrollView;obj/Debug/res/layout/fracment_home.xml
 ImageView;obj/Debug/res/layout/content_main.xml
-ImageView;obj/Debug/res/layout/fracment_home.xml
 ImageView;obj/Debug/res/layout/fracment_profile.xml
 ImageView;obj/Debug/res/layout/signup.xml
 include;obj/Debug/res/layout/activity_main.xml

@@ -16,15 +16,15 @@ namespace SectivaParking
         EditText txtEmail;
         EditText txtPassword;
         Button accountButton;
-        Button buttonCancel;
+        //Button buttonCancel;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.signUp);
             accountButton = FindViewById<Button>(Resource.Id.buttonAccount);
-            buttonCancel = FindViewById<Button>(Resource.Id.buttonCancel);
+            //buttonCancel = FindViewById<Button>(Resource.Id.buttonCancel);
 
-            buttonCancel.Click += BtnCancel_Click;
+            //buttonCancel.Click += BtnCancel_Click;
             accountButton.Click += BtnSignUp_Click;
         }
 
