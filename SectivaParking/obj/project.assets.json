@@ -3234,32 +3234,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aleja Valencia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/usuario/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aleja Valencia\\source\\repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+      "projectUniqueName": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
       "projectName": "SectivaParking.csproj",
-      "projectPath": "C:\\Users\\Aleja Valencia\\source\\repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
-      "packagesPath": "C:\\Users\\Aleja Valencia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aleja Valencia\\source\\repos\\sectiva-xamarin\\SectivaParking\\obj\\",
+      "projectPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
+      "packagesPath": "/Users/usuario/.nuget/packages/",
+      "outputPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Aleja Valencia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/usuario/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid13.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -12,6 +12,7 @@ namespace SectivaParking
     public class SignUp: Activity
     {
         EditText _txtName;
+        EditText _txtCc;
         EditText txtLastName;
         EditText txtEmail;
         EditText txtPassword;
@@ -32,9 +33,15 @@ namespace SectivaParking
         private void BtnSignUp_Click(object sender, System.EventArgs e)
         {
             _txtName = FindViewById<EditText>(Resource.Id.txtName);
+            _txtCc = FindViewById<EditText>(Resource.Id.txtCc);
             txtLastName = FindViewById<EditText>(Resource.Id.txtLastName);
             txtEmail = FindViewById<EditText>(Resource.Id.txtEmail);
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
+            if (_txtCc.Text.Equals(""))
+            {
+                Toast.MakeText(this, "El campo identificador es obligatorio", ToastLength.Long)?.Show();
+                return;
+            }
             if (_txtName.Text.Equals(""))
             {
                 Toast.MakeText(this, "El campo nombre es obligatorio", ToastLength.Long)?.Show();
