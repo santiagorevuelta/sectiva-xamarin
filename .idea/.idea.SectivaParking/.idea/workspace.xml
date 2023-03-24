@@ -9,325 +9,10 @@
     <projectFile kind="XamarinAndroid">SectivaParking/SectivaParking.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/.name" beforeDir="false" />
+    <list default="true" id="6d63b3a6-86ea-440e-b972-9f0c5c7ed098" name="Changes" comment="Agtrgado de cc">
+      <change afterPath="$PROJECT_DIR$/SectivaParking/promises.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SectivaParking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SectivaParking/xs/project-cache/SectivaParking-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SectivaParking/xs/project-cache/SectivaParking-Debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/Resource.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/Resources/layout/signUp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/SignUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SignUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/SectivaParking.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking-Signed.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/bin/Debug/com.companyname.sectivaparking.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/MonoAndroid,Version=v13.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/SectivaParking.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/designtime/Resource.designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/designtime/build.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/designtime/libraryprojectimports.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/49.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/56.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/56/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/56/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/56/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/57.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/57/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/57/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/57/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/58/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/59/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/60.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/60/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/60/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/60/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/61.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/61/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/61/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/61/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/62.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/62/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/62/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/62/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/63.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/63/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/63/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/63/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/64.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/64/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/64/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/64/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/65.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/65/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/65/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/65/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/65/jl/proguard.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/66/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/67.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/67/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/67/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/67/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/68/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/69/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/70.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/70/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/70/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/70/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/71/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/72/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/73.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/73/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/73/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/73/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/74.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/74/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/74/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/74/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/75.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/75/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/75/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/75/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/75/jl/proguard.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/76.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/76/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/76/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/76/jl/annotations.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/76/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/baseline-prof.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/proguard.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/77/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/78.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/78/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/78/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/78/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/79.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/79/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/79/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/79/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/80.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/80/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/80/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/80/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/81.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/81/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/81/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/81/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/82.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/82/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/82/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/82/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/83.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/83/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/83/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/83/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/84.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/84/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/84/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/84/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/85.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/85/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/85/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/85/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/86.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/86/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/86/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/86/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/87.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/87/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/87/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/87/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/88.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/88/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/88/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/88/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/89.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/89/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/89/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/89/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/annotations.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/90/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/91/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/res/values-v23/values-v23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/92/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/public.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/93/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/META-INF/com/android/build/gradle/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/annotations.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-af/values-af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-am/values-am.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-as/values-as.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-az/values-az.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-be/values-be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-bg/values-bg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-bn/values-bn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-bs/values-bs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-da/values-da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-el/values-el.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-et/values-et.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-eu/values-eu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-fa/values-fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-gl/values-gl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-gu/values-gu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-hi/values-hi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-hr/values-hr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-hu/values-hu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-hy/values-hy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-in/values-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-is/values-is.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ka/values-ka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-kk/values-kk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-km/values-km.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-kn/values-kn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ky/values-ky.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-lo/values-lo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-lt/values-lt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-lv/values-lv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-mk/values-mk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ml/values-ml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-mn/values-mn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-mr/values-mr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ms/values-ms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-my/values-my.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-nb/values-nb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ne/values-ne.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-or/values-or.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-pa/values-pa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-si/values-si.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sk/values-sk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sl/values-sl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sq/values-sq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sr/values-sr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sv/values-sv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-sw/values-sw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ta/values-ta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-te/values-te.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-th/values-th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-tl/values-tl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-tr/values-tr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-ur/values-ur.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-uz/values-uz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-vi/values-vi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values-zu/values-zu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/94/jl/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/lp/map.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/Debug/130/stamp/_ResolveLibraryProjectImports.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/SectivaParking.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SectivaParking/SectivaParking.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +131,7 @@
       <workItem from="1679152484452" duration="744000" />
       <workItem from="1679155776736" duration="611000" />
       <workItem from="1679675800361" duration="148000" />
-      <workItem from="1679675952199" duration="170000" />
+      <workItem from="1679675952199" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1677382602296</created>
@@ -595,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678232504384</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Agtrgado de cc">
+      <created>1679676233567</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679676233567</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +322,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="s" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="Agtrgado de cc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agtrgado de cc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
