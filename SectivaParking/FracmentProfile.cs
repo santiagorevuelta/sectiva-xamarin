@@ -6,11 +6,12 @@ using Android.Webkit;
 
 namespace SectivaParking
 {
-    public class FracmentProfile: AndroidX.Fragment.App.Fragment
+    public class FracmentProfile : AndroidX.Fragment.App.Fragment
     {
-        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
             return inflater.Inflate(Resource.Layout.fracment_profile, container, false);
         }
-        
+
     }
 }

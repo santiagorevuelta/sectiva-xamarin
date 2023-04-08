@@ -8,7 +8,8 @@ using Android.Views;
 using Android.Content.Res;
 
 namespace SectivaParking
-   {[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
+{
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar")]
     public class MainTabs : AppCompatActivity
     {
         private static BottomNavigationView _navigation;
@@ -23,16 +24,19 @@ namespace SectivaParking
         }
         protected bool OnBackButtonPressed()
         {
-            return true;    
+            return true;
         }
 
-        public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e) {
+        public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
+        {
             LoadFragment(e.Item.ItemId);
         }
 
-        public void LoadFragment(int id) {
+        public void LoadFragment(int id)
+        {
             var frag = SupportFragmentManager.BeginTransaction();
-            switch (id) {
+            switch (id)
+            {
                 case Resource.Id.menu_home:
                     frag.Replace(Resource.Id.fragment_container, new FracmentHome());
                     break;

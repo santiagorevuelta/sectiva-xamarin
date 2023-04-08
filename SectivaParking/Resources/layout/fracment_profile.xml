@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/menu_home"
-              android:layout_width="match_parent"
-              android:gravity="center"
-              android:orientation="vertical"
-              android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/menu_home"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
     <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="300px" app:srcCompat="@drawable/iconperson" android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        app:srcCompat="@drawable/iconperson"
+        android:id="@+id/imageView"
     />
     <TextView
-            android:text="Profile"
-            android:layout_width="wrap_content"
-            android:gravity="center"
-            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"/>
+        android:text="Profile"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="1"/>
 
 </LinearLayout>

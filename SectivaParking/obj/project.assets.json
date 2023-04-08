@@ -2,6 +2,102 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
+      "sqlite-net-pcl/1.8.116": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -9,6 +105,19 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.AndroidX.Activity/1.6.1.1": {
@@ -107,12 +216,12 @@
           "buildTransitive/monoandroid12.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.6.0.1": {
+      "Xamarin.AndroidX.AppCompat/1.6.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Activity": "1.6.1.1",
           "Xamarin.AndroidX.Annotation": "1.5.0.2",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.6.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.6.1",
           "Xamarin.AndroidX.Collection": "1.2.0.6",
           "Xamarin.AndroidX.Core": "1.9.0.2",
           "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.2",
@@ -125,7 +234,7 @@
           "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.2",
           "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.4",
           "Xamarin.AndroidX.SavedState": "1.2.0.2",
-          "Xamarin.Kotlin.StdLib": "1.8.0.1"
+          "Xamarin.Kotlin.StdLib": "1.8.10"
         },
         "frameworkAssemblies": [
           "Java.Interop",
@@ -151,7 +260,7 @@
           "buildTransitive/monoandroid12.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.6.0.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.6.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.5.0.2",
@@ -1574,11 +1683,11 @@
           "buildTransitive/monoandroid12.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.8.0.1": {
+      "Xamarin.Kotlin.StdLib/1.8.10": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "24.0.0.1",
-          "Xamarin.Kotlin.StdLib.Common": "1.8.0.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.8.10"
         },
         "frameworkAssemblies": [
           "Java.Interop",
@@ -1604,7 +1713,7 @@
           "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.8.0.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.8.10": {
         "type": "package",
         "frameworkAssemblies": [
           "Java.Interop",
@@ -1752,6 +1861,122 @@
     }
   },
   "libraries": {
+    "sqlite-net-pcl/1.8.116": {
+      "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.8.116",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Logo-low.png",
+        "lib/netstandard2.0/SQLite-net.dll",
+        "lib/netstandard2.0/SQLite-net.xml",
+        "sqlite-net-pcl.1.8.116.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/2.0.4": {
+      "sha512": "ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "sha512": "4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.0.4.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
+      "sha512": "M7evP2q/gosKlDvxtQ+T4h+MWNiBzfIis1eZr6jrQnh3H9md+74e2cni/b0vm2OymyV/zZp7cKfUgde57zvqwA==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3.android/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll",
+        "sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.android.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+      "sha512": "YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1795,6 +2020,31 @@
         "ref/xamarinwatchos10/_._",
         "system.numerics.vectors.4.5.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1874,10 +2124,10 @@
         "xamarin.androidx.annotation.experimental.nuspec"
       ]
     },
-    "Xamarin.AndroidX.AppCompat/1.6.0.1": {
-      "sha512": "nCGsaiMMEHF51BVI+MzNMXRlcdVzAYoUdbcjS6L6uwYq80J1AUZgNlUwtNPrKw7NinLMGchbvAit5+qJ+O66mA==",
+    "Xamarin.AndroidX.AppCompat/1.6.1": {
+      "sha512": "+J4HTXPKaeoI7v+ifRyeXWCm2WYYzQ+72uR3ZDUVsXLdwUeVFzkF9qggM0XsgRkz0GvrKTF/F8imwZVERQR+EA==",
       "type": "package",
-      "path": "xamarin.androidx.appcompat/1.6.0.1",
+      "path": "xamarin.androidx.appcompat/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1896,14 +2146,14 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.xml",
         "proguard/proguard.txt",
-        "xamarin.androidx.appcompat.1.6.0.1.nupkg.sha512",
+        "xamarin.androidx.appcompat.1.6.1.nupkg.sha512",
         "xamarin.androidx.appcompat.nuspec"
       ]
     },
-    "Xamarin.AndroidX.AppCompat.AppCompatResources/1.6.0.1": {
-      "sha512": "az7Ynwuoy2cBA1+fuW8U7IMofIkW1K4VM01b/hH7K7+ADSeYXczWiLZ7dHgk0/b+8Yz3LisluQzFRQvH7rgeUw==",
+    "Xamarin.AndroidX.AppCompat.AppCompatResources/1.6.1": {
+      "sha512": "O9Rb0c858G5Hm/u8fOZehfj54Q1V/byo1IWxp9m/OBSyqD+SWRCAQ6gXdhrt+sU2+UUqWBQPCjsOjU5MFTdLKQ==",
       "type": "package",
-      "path": "xamarin.androidx.appcompat.appcompatresources/1.6.0.1",
+      "path": "xamarin.androidx.appcompat.appcompatresources/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1921,7 +2171,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.xml",
-        "xamarin.androidx.appcompat.appcompatresources.1.6.0.1.nupkg.sha512",
+        "xamarin.androidx.appcompat.appcompatresources.1.6.1.nupkg.sha512",
         "xamarin.androidx.appcompat.appcompatresources.nuspec"
       ]
     },
@@ -3092,10 +3342,10 @@
         "xamarin.jetbrains.annotations.nuspec"
       ]
     },
-    "Xamarin.Kotlin.StdLib/1.8.0.1": {
-      "sha512": "QbHXR2R2ieo85RgRnK/KA5OUVduRQj8sX6pueHIj2qJXs8FMU+NOCJOoGq5xNUlPgkcEBBoz+dS5wjmEscnnXg==",
+    "Xamarin.Kotlin.StdLib/1.8.10": {
+      "sha512": "u88EJtk3Aj7EU9fUIGS9yqdJkFxNHPxA46u4RD8Dyjs234oguHbJz5RXSJWmVB80Gvm/XzHixGPDBLS4LT71Sw==",
       "type": "package",
-      "path": "xamarin.kotlin.stdlib/1.8.0.1",
+      "path": "xamarin.kotlin.stdlib/1.8.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3105,19 +3355,19 @@
         "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.8.0.jar",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.8.10.jar",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.xml",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.xml",
-        "xamarin.kotlin.stdlib.1.8.0.1.nupkg.sha512",
+        "xamarin.kotlin.stdlib.1.8.10.nupkg.sha512",
         "xamarin.kotlin.stdlib.nuspec"
       ]
     },
-    "Xamarin.Kotlin.StdLib.Common/1.8.0.1": {
-      "sha512": "4pP2nGTW8rQ6RZW2wSpN/gBYCeMBXy724292L326nUMh5yvZmEDAZTl4lK8X+BJMy0bBqmZrzxiLOjdqYnnN2Q==",
+    "Xamarin.Kotlin.StdLib.Common/1.8.10": {
+      "sha512": "U6lm2d+BosE+XlxZZUYHTOF2CSXuYakYOfamvYYVz9ZgX8137vU5WDMfarjeR1bFI4S7bOhblFoNwpXskpW7Ng==",
       "type": "package",
-      "path": "xamarin.kotlin.stdlib.common/1.8.0.1",
+      "path": "xamarin.kotlin.stdlib.common/1.8.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3127,12 +3377,12 @@
         "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.8.0.jar",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.8.10.jar",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.xml",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.xml",
-        "xamarin.kotlin.stdlib.common.1.8.0.1.nupkg.sha512",
+        "xamarin.kotlin.stdlib.common.1.8.10.nupkg.sha512",
         "xamarin.kotlin.stdlib.common.nuspec"
       ]
     },
@@ -3227,32 +3477,40 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
-      "Xamarin.AndroidX.AppCompat >= 1.6.0.1",
+      "Xamarin.AndroidX.AppCompat >= 1.6.1",
       "Xamarin.AndroidX.ConstraintLayout >= 2.1.4.3",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Google.Android.Material >= 1.0.0.1"
+      "Xamarin.Google.Android.Material >= 1.0.0.1",
+      "sqlite-net-pcl >= 1.8.116"
     ]
   },
   "packageFolders": {
-    "/Users/usuario/.nuget/packages/": {}
+    "C:\\Users\\jonad\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
-      "projectName": "SectivaParking.csproj",
-      "projectPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/SectivaParking.csproj",
-      "packagesPath": "/Users/usuario/.nuget/packages/",
-      "outputPath": "/Users/usuario/Projects/SectivaParking/SectivaParking/obj/",
+      "projectUniqueName": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+      "projectName": "SectivaParking",
+      "projectPath": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+      "packagesPath": "C:\\Users\\jonad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/usuario/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jonad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid13.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3266,7 +3524,7 @@
         "dependencies": {
           "Xamarin.AndroidX.AppCompat": {
             "target": "Package",
-            "version": "[1.6.0.1, )"
+            "version": "[1.6.1, )"
           },
           "Xamarin.AndroidX.ConstraintLayout": {
             "target": "Package",
@@ -3279,6 +3537,10 @@
           "Xamarin.Google.Android.Material": {
             "target": "Package",
             "version": "[1.0.0.1, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           }
         }
       }
