@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using IntelliJ.Lang.Annotations;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ using System.Text;
 namespace SectivaParking
 {
     #region Usuario
-    public class Login {
+    public class Login
+    {
         public Login() { }
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
@@ -37,7 +39,8 @@ namespace SectivaParking
     {
         static object locker = new object();
         SQLiteConnection connection;
-        public Connection() {
+        public Connection()
+        {
             connection = ConectarBD();
             connection.CreateTable<Login>();
         }
@@ -54,7 +57,7 @@ namespace SectivaParking
 
         public int Insertar(Login registro)
         {
-            lock (locker)   
+            lock (locker)
             {
                 if (registro.Id == 0)
                 {
@@ -67,14 +70,30 @@ namespace SectivaParking
             }
         }
 
-        public Login SelecionarUsuario(string NombreUsuario, string ClaveUsuario)
+        public Login SelecionarUsuario(string cedula, string ClaveUsuario)
         {
             lock (locker)
             {
-                return connection.Table<Login>().FirstOrDefault(x => x.Name == NombreUsuario && x.Password == ClaveUsuario);
+                return connection.Table<Login>().FirstOrDefault(x => x.Identifer == cedula && x.Password == ClaveUsuario);
             }
         }
 
+        public Login BuscarCedula(string cedula)
+        {
+            lock (locker)
+            {
+                return connection.Table<Login>().FirstOrDefault(x => x.Identifer == cedula);
+            }
+        }
+
+        public int EliminarUsuario(int Id)
+        {
+            Login cedula = BuscarCedula(Id.ToString());
+            lock (locker)
+            {
+                return connection.Delete<Login>(cedula.Id);
+            }
+        }
     }
     #endregion
 }

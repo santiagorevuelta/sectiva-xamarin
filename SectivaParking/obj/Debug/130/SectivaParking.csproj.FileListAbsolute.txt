@@ -428,3 +428,5 @@ C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\android
 C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\android\assets\System.Web.Services.pdb
 C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\android\assets\System.Xml.Linq.dll
 C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\android\assets\System.Xml.Linq.pdb
+C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\res\layout\update.xml
+C:\Users\jonad\Source\Repos\sectiva-xamarin\SectivaParking\obj\Debug\130\android\src\crc6470b3777163c2ff60\Update.java

@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
+using System;
 using System.ComponentModel;
 
 namespace SectivaParking
@@ -16,6 +17,8 @@ namespace SectivaParking
         EditText passwordEditText;
         Button accountButton;
         Button loginButton;
+        Button btnDelete;
+        Button btnUpdate;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -25,9 +28,43 @@ namespace SectivaParking
             loginButton = FindViewById<Button>(Resource.Id.buttonLogin);
             editTextUser = FindViewById<EditText>(Resource.Id.editTextUser);
             passwordEditText = FindViewById<EditText>(Resource.Id.editTextPassword);
+            btnDelete = FindViewById<Button>(Resource.Id.btnDelete);
+            btnUpdate = FindViewById<Button>(Resource.Id.btnUpdate);
+
+            btnDelete.Click += BtnDelete_Click;
+            btnUpdate.Click += BtnUpdate_Click;
 
             loginButton.Click += BtnLogin_Click;
             accountButton.Click += BtnSigUp_Click;
+        }
+        private void BtnUpdate_Click(object sender, EventArgs e)
+        {
+            if (new Connection().BuscarCedula(editTextUser.Text) != null && !string.IsNullOrEmpty(editTextUser.Text.Trim()))
+            {
+                Intent i = new Intent(this, typeof(Update));
+                StartActivity(i);
+            }
+            else
+            {
+                Toast.MakeText(this, "Ingrese cédula", ToastLength.Long).Show();
+            }
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(editTextUser.Text) && new Connection().BuscarCedula(editTextUser.Text) != null)
+            {
+                new Connection().EliminarUsuario(int.Parse(editTextUser.Text));
+                Toast.MakeText(this, "Delete user sucessful", ToastLength.Long).Show();
+                Intent i = new Intent(this, typeof(MainActivity));
+                StartActivity(i);
+            }
+            else
+            {
+                Toast.MakeText(this, "Ingrese cédula", ToastLength.Long).Show();
+
+            }
+
         }
 
         private void BtnLogin_Click(object sender, System.EventArgs e)
@@ -36,7 +73,7 @@ namespace SectivaParking
 
             if (editTextUser.Text.Equals(""))
             {
-                Toast.MakeText(this, "El usuario es obligatorio", ToastLength.Short)?.Show();
+                Toast.MakeText(this, "La cédula es obligatoria", ToastLength.Short)?.Show();
                 return;
             }
 
@@ -45,20 +82,20 @@ namespace SectivaParking
                 Toast.MakeText(this, "La contraseña es obligatoria", ToastLength.Short)?.Show();
                 return;
             }
-            resultado = new Connection().SelecionarUsuario(editTextUser.Text.Trim(), passwordEditText.Text.Trim());
+            resultado = new Connection().SelecionarUsuario(editTextUser.Text, passwordEditText.Text.Trim());
 
             if (resultado != null)
-            {   
-                string user = editTextUser.Text.ToString();
+            {
+                string user = resultado.Name;
                 Toast.MakeText(this, $"Bienvenido {user}", ToastLength.Short).Show();
                 Intent intent = new Intent(this, typeof(MainTabs));
                 StartActivity(intent);
             }
             else
             {
-                Toast.MakeText(this, "No existe el usuario", ToastLength.Short).Show();
+                Toast.MakeText(this, "No existe la cédula", ToastLength.Short).Show();
             }
-            
+
         }
 
         private void BtnSigUp_Click(object sender, System.EventArgs e)

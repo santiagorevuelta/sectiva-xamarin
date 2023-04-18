@@ -66,20 +66,25 @@ namespace SectivaParking
                     return;
                 }
 
-                new Connection().Insertar(new Login()
+                if (new Connection().BuscarCedula(_txtCc.Text.Trim()) == null)
                 {
-                    Id = 0,
-                    Name = _txtName.Text.Trim(),
-                    LastName = txtLastName.Text.Trim(),
-                    Email = txtEmail.Text.Trim(),
-                    Identifer = _txtCc.Text.Trim(),
-                    Password = txtPassword.Text.Trim(),
-
-                });
-
-                Toast.MakeText(this, "Registro exitoso", ToastLength.Long)?.Show();
-                Intent intent = new Intent(this, typeof(MainActivity));
-                StartActivity(intent);
+                    new Connection().Insertar(new Login()
+                    {
+                        Id = 0,
+                        Name = _txtName.Text.Trim().ToLower(),
+                        LastName = txtLastName.Text.Trim(),
+                        Email = txtEmail.Text.Trim(),
+                        Identifer = _txtCc.Text.Trim(),
+                        Password = txtPassword.Text.Trim(),
+                    });
+                    Toast.MakeText(this, "Registro exitoso", ToastLength.Long)?.Show();
+                    Intent intent = new Intent(this, typeof(MainActivity));
+                    StartActivity(intent);
+                }
+                else
+                {
+                    Toast.MakeText(this, "Cédula ya registrada", ToastLength.Long)?.Show();
+                }
             }
             catch (System.Exception ex)
             {

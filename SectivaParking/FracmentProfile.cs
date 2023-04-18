@@ -1,8 +1,11 @@
 using System;
 using Android.App;
+using Android.Content;
 using Android.OS;
+using Android.Runtime;
 using Android.Views;
 using Android.Webkit;
+using Android.Widget;
 
 namespace SectivaParking
 {
@@ -12,6 +15,5 @@ namespace SectivaParking
         {
             return inflater.Inflate(Resource.Layout.fracment_profile, container, false);
         }
-
     }
 }
