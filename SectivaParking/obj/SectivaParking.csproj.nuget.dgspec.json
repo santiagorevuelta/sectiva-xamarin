@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj": {}
+    "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj": {
+    "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+        "projectUniqueName": "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
         "projectName": "SectivaParking",
-        "projectPath": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+        "projectPath": "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
         "packagesPath": "C:\\Users\\jonad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\obj\\",
+        "outputPath": "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

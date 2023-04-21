@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NsCP/7hJ6gaSMQY+faEcwnkXEPdZH/Fx4t5XLweko9fl9TUCiMdXe4BfOl/yJjTaDcAZvLEpucRXZNANlKmvvQ==",
+  "dgSpecHash": "CLF1tZaFexYsmKFtqBld/mf2W42wnH4Deb6IOO6855zi8Y/+pSZHqMLnpNAYj/WVSBKzCpcwkYijoU4gUQF/yA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonad\\Source\\Repos\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
+  "projectFilePath": "C:\\Users\\jonad\\Source\\Repos\\santiagorevuelta\\sectiva-xamarin\\SectivaParking\\SectivaParking.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonad\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\jonad\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

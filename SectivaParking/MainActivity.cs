@@ -44,9 +44,13 @@ namespace SectivaParking
                 Intent i = new Intent(this, typeof(Update));
                 StartActivity(i);
             }
-            else
+            else if (string.IsNullOrEmpty(editTextUser.Text))
             {
                 Toast.MakeText(this, "Ingrese cédula", ToastLength.Long).Show();
+            }
+            else
+            {
+                Toast.MakeText(this, "No existe la cédula", ToastLength.Long).Show();
             }
         }
 
@@ -59,10 +63,14 @@ namespace SectivaParking
                 Intent i = new Intent(this, typeof(MainActivity));
                 StartActivity(i);
             }
-            else
+            else if (string.IsNullOrEmpty(editTextUser.Text))
             {
                 Toast.MakeText(this, "Ingrese cédula", ToastLength.Long).Show();
 
+            }
+            else
+            {
+                Toast.MakeText(this, "No existe la cédula", ToastLength.Long).Show();
             }
 
         }
@@ -86,8 +94,7 @@ namespace SectivaParking
 
             if (resultado != null)
             {
-                string user = resultado.Name;
-                Toast.MakeText(this, $"Bienvenido {user}", ToastLength.Short).Show();
+                Toast.MakeText(this, $"Bienvenido {resultado.Name.ToUpper()} {resultado.LastName.ToUpper()}", ToastLength.Short).Show();
                 Intent intent = new Intent(this, typeof(MainTabs));
                 StartActivity(intent);
             }

@@ -7,10 +7,12 @@ using Android.Widget;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 
 namespace SectivaParking
 {
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", ParentActivity = typeof(MainActivity))]
     public class Update : Activity
     {
         EditText txtId;
@@ -24,7 +26,7 @@ namespace SectivaParking
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Update);
             txtId = FindViewById<EditText>(Resource.Id.txtId);
-            txtEmail = FindViewById<EditText>(Resource.Id.txtEmail);
+            txtName = FindViewById<EditText>(Resource.Id.txtName);
             txtLast = FindViewById<EditText>(Resource.Id.txtLastName);
             txtEmail = FindViewById<EditText>(Resource.Id.txtEmail);
             txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
@@ -35,15 +37,9 @@ namespace SectivaParking
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtId.Text) &&
-                !string.IsNullOrEmpty(txtName.Text) &&
-                !string.IsNullOrEmpty(txtLast.Text) &&
-                !string.IsNullOrEmpty(txtEmail.Text) &&
-                !string.IsNullOrEmpty(txtPassword.Text))
-            {
                 new Connection().Insertar(new Login()
                 {
-                    Id = new Connection().BuscarCedula(txtId.Text).Id,
+                    Identifer = new Connection().BuscarCedula(txtId.Text).Identifer,
                     Name = txtName.Text.Trim().ToLower(),
                     LastName = txtLast.Text.Trim(),
                     Email = txtEmail.Text.Trim(),
@@ -51,11 +47,7 @@ namespace SectivaParking
                 });
                 Intent i = new Intent(this, typeof(MainActivity));
                 StartActivity(i);
-            }
-            else
-            {
-                Toast.MakeText(this, "Complete los campos", ToastLength.Long).Show();
-            }
+           
 
         }
     }

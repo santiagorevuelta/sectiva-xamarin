@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="49.5dp"
         android:hint="Identifier"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textColor="#ff000000"
         android:layout_marginVertical="5dp"
         android:textColorHint="#ff4e4d4d"
@@ -62,7 +62,7 @@
         android:textColorLink="#ff010101"
         android:paddingLeft="10px" />
     <Button
-        android:id="@+id/Update"
+        android:id="@+id/btnUpdate"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="Update"
