@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@id/menu_cars"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/menu_cars"
     android:layout_width="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     android:layout_height="match_parent">
-    <TextView
-        android:text="Cars"
-        android:layout_width="wrap_content"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_weight="1"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/placa1"
+                android:id="@+id/imageView1"
+                android:layout_marginVertical="10dp"
+        />
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/placa2"
+                android:id="@+id/imageView2"
+                android:layout_marginVertical="10dp"
+        />
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/placa3"
+                android:id="@+id/imageView3"
+                android:layout_marginVertical="10dp"
+        />
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/placa4"
+                android:id="@+id/imageView4"
+                android:layout_marginVertical="10dp"
+        />
+    </LinearLayout>
 </LinearLayout>

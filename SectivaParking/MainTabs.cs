@@ -1,11 +1,9 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.OS;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.BottomNavigation;
 using Android.Webkit;
-using Android.Views;
-using Android.Content.Res;
+using Android.Widget;
 
 namespace SectivaParking
 {
@@ -21,10 +19,6 @@ namespace SectivaParking
             _navigation.NavigationItemSelected += NavigationItemSelected;
             _navigation.SelectedItemId = Resource.Id.menu_home;
             LoadFragment(Resource.Id.menu_home);
-        }
-        protected bool OnBackButtonPressed()
-        {
-            return true;
         }
 
         public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)

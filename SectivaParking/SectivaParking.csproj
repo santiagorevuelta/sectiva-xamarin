@@ -89,6 +89,10 @@
     <AndroidResource Include="Resources\drawable\iconone.png" />
     <AndroidResource Include="Resources\drawable\icontwo.png" />
     <AndroidResource Include="Resources\drawable\one.png" />
+    <AndroidResource Include="Resources\drawable\placa1.jpg" />
+    <AndroidResource Include="Resources\drawable\placa2.jpg" />
+    <AndroidResource Include="Resources\drawable\placa3.jpg" />
+    <AndroidResource Include="Resources\drawable\placa4.jpg" />
     <AndroidResource Include="Resources\drawable\two.jpg" />
     <AndroidResource Include="Resources\layout\activity_main.xml">
       <SubType>Designer</SubType>

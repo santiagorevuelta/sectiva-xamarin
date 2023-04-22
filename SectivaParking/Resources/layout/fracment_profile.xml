@@ -13,12 +13,4 @@
         app:srcCompat="@drawable/iconperson"
         android:id="@+id/imageView"
     />
-    <TextView
-        android:text="Profile"
-        android:layout_width="wrap_content"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_weight="1"/>
-
 </LinearLayout>
