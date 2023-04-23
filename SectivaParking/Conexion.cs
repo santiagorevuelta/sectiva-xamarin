@@ -86,12 +86,12 @@ namespace SectivaParking
             }
         }
 
-        public int EliminarUsuario(int Id)
+        public int EliminarUsuario(string cc)
         {
-            Login cedula = BuscarCedula(Id.ToString());
+            Login cedula = BuscarCedula(cc);
             lock (locker)
             {
-                return connection.Delete<Login>(cedula.Id);
+                return connection.Delete<Login>(cedula.Identifer);
             }
         }
     }

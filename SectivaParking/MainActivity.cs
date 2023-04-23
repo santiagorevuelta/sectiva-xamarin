@@ -58,7 +58,7 @@ namespace SectivaParking
         {
             if (!string.IsNullOrEmpty(editTextUser.Text) && new Connection().BuscarCedula(editTextUser.Text) != null)
             {
-                new Connection().EliminarUsuario(int.Parse(editTextUser.Text));
+                new Connection().EliminarUsuario(editTextUser.Text);
                 Toast.MakeText(this, "Delete user sucessful", ToastLength.Long).Show();
                 Intent i = new Intent(this, typeof(MainActivity));
                 StartActivity(i);
